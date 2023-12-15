@@ -1,0 +1,27 @@
+div{
+    width: 2000px;
+    height: 2000px;
+    background-color: rebeccapurple;
+    animation-name: mubina;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes mubina{
+
+    0%{
+        background-color: aqua;
+    }
+    25%{
+        background-color: brown;
+    }
+    50%{
+        background-color: blue;
+    }
+    75%{
+        background-color: black;
+    }
+    100%{
+        background-color: green;
+}
+}
+   
